@@ -29,6 +29,7 @@ func Chunk(slice []int, size int) {
 func Chunk2(slice []int, size int) {
 	if size == 0 {
 		z01.PrintRune('\n')
+		return
 	}
 
 	z01.PrintRune('[')
